@@ -1,0 +1,80 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.expense-tracker{
+    background-color: beige;
+    max-width: 400px;
+    padding: 15px;
+    margin: 0 auto;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+
+}
+
+.expense-hearder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.tracker{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+button{
+    /* margin-left: 90px; */
+    border: none;
+    border-radius: 2px;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+
+}
+
+button:hover{
+    background-color: #1e6120;
+}
+
+.total-expenses{
+    text-align: right;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.expense-list{
+    margin-bottom: 2opx;
+}
+
+.expense-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.expense-item-description{
+    font-weight: bold;
+}
+.delete-expense-btn{
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.delete-expense-btn:hover{
+    background-color: #a72e25;
+    
+}
